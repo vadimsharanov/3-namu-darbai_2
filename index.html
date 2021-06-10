@@ -6,18 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Namu darbai-2</title>
 </head>
+<style>
+    .sec {
+    margin: 100px;
+    }
+    .trizenklis {
+    margin: 100px;
+    }
+    .quattro {
+    margin: 100px;
+    }
+    label {
+        display: flex;
+        flex-direction: column;
+    }
+</style>
 <body>
-    <input id="sec"/>
-    <button onclick="func()">go</button>
-    <div id="rezultatas"></div> 
+    <div class="sec">
+        <div>
+        <label for="sec">Enter amount of seconds</label>
+        <input id="sec"/>
+        </div>
+        <div><button onclick="func1()"> convert seconds to HH:MM:SS</button></div>
+        <div id="rezultatas1"></div>
+    </div>
     
-    <input id="trizenklis"/>
-    <button onclick="func1()">go again</button>
-    <div id="rezultatas2"></div> 
+    <div class="trizenklis">
+        <div>
+            <label for="trizenklis">Enter three digit number</label>
+            <input id="trizenklis"/>
+            </div>
+ 
+        <div><button onclick="func2()">three digit number</button></div>
+        <div id="rezultatas2"></div> 
+    </div>
+    <div class="quattro">
+        <div>
+            <label for="a b c">Enter three digit number</label>
+            <input id="a"/>
+            <input id="b"/>
+            <input id="c"/>
+            </div>
+
+        <div><button onclick="func3()">Solve quadratic equation</button></div>
+        <div id="rezultatas3"></div> 
+    </div>
 
     <script src="./javaScript/sekundes.js"></script>
     <script src="./javaScript/trizenklis.js"></script>
-    <script src="./javaScript/notes.js"></script>
+    <script src="./javaScript/kvadratineLygtis.js"></script>
     <script src="./javaScript/notes.js"></script>
 </body>
 </html>

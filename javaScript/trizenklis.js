@@ -1,5 +1,21 @@
+/* 2. Suraskite triženklio skaičiaus visų skaitmenų:
+  *Sumą
 
-function func1() {
+   *Vidurkį
+
+   *Sandaugą.
+
+   Prieš tai atpažinti, ar tai yra triženklis skaičius, jei skaičius dviženklis ar n-ženklis, veiksmų nevykdyti                            
+
+Papildomai:
+
+*Skaičius paimamas iš input HTML žymės laukelio.
+
+*Išveskite informacija į div.
+*/
+
+"use strict";
+function func2() {
     var a, b, c, skaicius, suma, vidurkis, sandauga;
     var skaicius = Number(document.getElementById("trizenklis").value);
     if(skaicius > 999) {
