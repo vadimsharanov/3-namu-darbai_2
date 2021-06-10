@@ -6,7 +6,7 @@ function func3() {
     var a, b, c, d, answer1, answer2;
     d = (b**2 -4*a*c);
     if (d < 0) {
-        document.getElementById("rezultatas3").innerHTML = ("eik pasivaiksciok")
+        document.getElementById("rezultatas3").innerHTML = ("nera sprendimo ")
     }
     if (d>0) {
     answer1 = (-b - Math.sqrt(d)) /2/a;
